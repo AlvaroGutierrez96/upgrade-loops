@@ -1,0 +1,46 @@
+.logo{
+    max-width:100%;
+    margin: 5%;
+    margin-top: 5%;
+    min-with: 20px;
+}
+.element-right-container{
+    float:right;
+    margin-right: 8%;
+}
+.element-left-container{
+    float: left;
+    max-width: 15%;
+    margin-left: 8%;
+}
+.estilo1{
+    font-weight: bold;
+}
+.pie{
+    display: flex;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.estiloletrap1{
+    font-family: sans-serif;
+    font-style: italic ;
+}
+
+@media (min-width: 576px) {
+    p {
+        font-size: 14px;
+    }}
+.margintopcheckbox{
+    padding-left: 300px;
+}
+
+footer{
+    padding-top: 3%;
+}
+
+body{
+    background-color: goldenrod;
+}
