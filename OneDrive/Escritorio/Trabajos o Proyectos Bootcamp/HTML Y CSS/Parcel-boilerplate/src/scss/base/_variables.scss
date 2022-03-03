@@ -1,0 +1,38 @@
+//Color
+$blue: #413d4b;
+
+//Sizes
+
+$h1: 20px;
+$h1-tablet-desktop: 30px;
+
+//screen-sizes
+$tablet: 768px;
+$desktop: 992px;
+
+*{
+    background-color: #fef6e4;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #001858;
+}
+
+
+body{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.pclass{
+    width: 100%;
+    color: aliceblue;
+    padding: 5%;
+    background-color:#232946;
+    border-radius: 50px 50px 50px 50px;
+
+    
+}

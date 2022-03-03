@@ -1,0 +1,75 @@
+h2{
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.experiencia{
+    font-size: 40px;
+    justify-content: center;
+}
+
+.second-photo-{
+    box-shadow: black;
+    border:solid #001858;
+    padding: 0.3%;
+}
+
+img{
+    width: 300px;
+}
+
+.second-article-div-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-article-div-items {
+    max-width: 100%;
+    margin-top: 10%;
+}
+    
+.div-titles-second{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.eventos-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cm-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p-second-div {
+    display: flex;
+    
+}
+
+.p-second-class{
+    justify-content: center;
+}
+
+.p-second-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+
+}
+
+.marginh2{
+  margin-top: 75px;
+}
+
+.second-article-rightcontainer{
+    width: 100%;
+    justify-content: center;
+}
+
+

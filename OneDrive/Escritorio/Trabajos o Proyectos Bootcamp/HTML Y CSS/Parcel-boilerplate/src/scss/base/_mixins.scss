@@ -1,0 +1,112 @@
+@import "./_variables";
+
+// @include tablet {
+//   background-color: red;
+// }
+
+$tablet: 576px;
+$desktop: 992px;
+$large:1200px;
+
+
+
+
+
+
+@mixin tablet {
+  @media screen and (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+// @include desktop {
+//   background-color: blue;
+// }
+
+@mixin desktop {
+  @media screen and (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@media (max-width:576px){
+  .sobre-mi {
+      font-size: 25px;
+      
+}}
+
+@media (max-width: 576px) {
+  .first-photo- {
+ width: 200px;
+ margin-top: 70%;
+
+  }}
+
+  @media (max-width: 576px) {
+    p {
+        font-size: 14px;
+    }
+  }
+    
+
+@media (max-width:576px){
+
+    .div-titles-second{
+        display: flex;
+        flex-wrap: wrap;
+ 
+    }
+}
+@media (max-width:576px){
+
+    .experiencia{
+      
+        margin-left: 10%;
+ 
+    }
+}
+
+@media (max-width:576px){
+
+    .article-rightcontainer{
+        display: flex;
+        flex-wrap: wrap;}
+    }
+
+    @media (max-width: 576px) {
+        .second-photo- {
+           margin-top: 60%;
+    }}
+
+    
+    @media (max-width: 576px) {
+      .estudios-title {
+        font-size: 18px;
+
+  }}
+
+  @media (max-width: 576px) {
+    .aficiones-title {
+      font-size: 18px;
+
+}}
+@media (max-width: 576px) {
+  .div-titles {
+    width: 100%;
+    justify-content:space-around;
+  }}
+
+  @media (max-width: 576px) {
+    .experiencia{
+    font-size: 25px;
+    }}
+
+    @media (max-width: 576px) {
+      .second-article-rightcontainer{
+      margin-left: 5%;
+      }}
+
+      @media (max-width: 576px) {
+        .p-second-class{
+        margin-left: 25%;
+        }}

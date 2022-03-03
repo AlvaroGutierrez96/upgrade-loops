@@ -1,0 +1,76 @@
+h2{
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.sobre-mi{
+    font-size: 40px;
+}
+
+.first-photo-{
+    box-shadow: black;
+    border:solid #001858;
+    padding: 1%;
+}
+
+img{
+    width: 300px;
+}
+
+.article-div-items{
+    display: flex;
+    align-items: stretch;
+
+}
+
+.article-rightcontainer {
+    max-width: 100%;
+    justify-content: space-around;
+}
+    
+.div-titles{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.estudios-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.aficiones-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p-first-div {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.pclass{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+
+}
+
+.marginh2{
+  margin-top: 75px;
+}
+
+
+@media (max-width: 576px) {
+    p {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+
+    
