@@ -11,10 +11,10 @@ const alumns = [
 
 for (let i = 0; i < alumns.length; i++) {
     if ((alumns[i].T1 && alumns[i].T2) || (alumns[i].T1 && alumns[i].T3) || (alumns[i].T2 && alumns[i].T3)) {
-        alumns[i].isAprovved = true;
+        alumns[i].isAproved = true;
     
     } else {
-        alumns[i].isAprovved = false;
+        alumns[i].isAproved = false;
     }
     
 } console.log(alumns);
