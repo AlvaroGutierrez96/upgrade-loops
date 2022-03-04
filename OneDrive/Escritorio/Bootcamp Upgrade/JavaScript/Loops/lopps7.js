@@ -1,3 +1,6 @@
+/* Usa un bucle for...of para recorrer todos los juguetes y añade los que tengan más de 15 ventas 
+(sellCount) al array popularToys. Imprimelo por consola.. Puedes usar este array: */
+
 let toys = [
 	{id: 5, name: 'Buzz MyYear', sellCount: 10}, 
 	{id: 11, name: 'Action Woman', sellCount: 24}, 
@@ -6,13 +9,13 @@ let toys = [
 	{id: 40, name: 'El gato felix', sellCount: 35}
 ]
 
-let popularToys = [];
+const popularToys = [];
 
-for (let toy of toys) {
-    if(toy.sellCount>15) {
-        popularToys.push(toy);
-    }
-}   console.log(popularToys);
+for(let toy of toys ){
+ if (toy.sellCount > 15){
+	 popularToys.push (toy)
+ }
+}
 
-/* Usa un bucle for...of para recorrer todos los juguetes y añade los que tengan más de 15 ventas 
-(sellCount) al array popularToys. Imprimelo por consola.. Puedes usar este array: */
+console.log(popularToys)
+
