@@ -31,7 +31,7 @@ const users = [
         }
     },
 ]
-
+//Hola
 let sum = 0;
 let counter = 0;
 for (const user of users){
