@@ -12,11 +12,10 @@ let movies = [
 let categoriesOfMovies = [];
 
 for (let movie of movies) {
-    for (const categorie of movie.categories) {
-        if (!categoriesOfMovies.includes(categorie)) {
-           
-            categoriesOfMovies.push(categorie)
+    for (const categoria of movie.categories) {
+        if (!categoriesOfMovies.includes(categoria)) {
+            categoriesOfMovies.push(categoria)
 
-        }
+        } 
     }
 } console.log(categoriesOfMovies);

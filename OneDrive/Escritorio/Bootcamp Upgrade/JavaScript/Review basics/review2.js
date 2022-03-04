@@ -1,8 +1,9 @@
-/* Dado el siguiente javascript usa forof y forin para hacer la media del volumen de todos los sonidos favoritos que tienen los usuarios. */
+/* Dado el siguiente javascript usa forof y forin para hacer la media del volumen de todos 
+//los sonidos favoritos que tienen los usuarios. */
 
 const users = [
     {name: 'Manolo el del bombo',
-        favoritesSounds: {
+    favoritesSounds: {
             waves: {format: 'mp3', volume: 50},
             rain: {format: 'ogg', volume: 60},
             firecamp: {format: 'mp3', volume: 80},
@@ -30,3 +31,21 @@ const users = [
         }
     },
 ]
+
+let sum = 0;
+let counter = 0;
+for (const user of users){
+    sum = 0
+    counter = 0
+    for (const key in user.favoritesSounds) {
+        sum += user.favoritesSounds[key].volume
+        counter++;
+ 
+        }
+        console.log("La media del sonido favorito de " + user.name + ' es: ' +  (sum/counter))
+    }
+           
+
+ 
+           
+    
